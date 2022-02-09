@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Roboto:wght@300&display=swap');
+
+:root{
+    --primary-color:#9E2A2B ; 
+    --header-color:#540B0E;
+    --hover-bgColor: #FFF3B0;
+    --lightish-yellow:#FDEFDC;
+}
+
+body{
+    margin: 0;
+    font-family: Lora;
+    display: flex;
+    flex-direction: column;
+
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    box-shadow: 0 0.8rem 1rem black;
+}
+
+
+.header-container h1{
+    font-size: 3rem;
+    font-weight:700;
+    color:var(--header-color);
+    margin-left: 1rem;
+}
+
+.fa-github{
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: black;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+}
+
+.center-textbox{
+
+    width: 50%;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+
+.main-text{
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+
+.subtext{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.hero-img{
+    width: 50%;
+    height: 50%;
+}
+
+.btn{
+    padding: 0.7rem;
+    font-size: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 0.313rem;
+}
+
+
+.footer-container{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    position: relative;
+    bottom: 0; 
+    width: 100%;
+}
+
+
+
+.fa-fire, .fa-book , .fa-twitter {
+    color:white;
+    margin: auto 2rem;
+    font-size: 2rem;
+}
+
+.footer-text{
+    color: white;
+}
