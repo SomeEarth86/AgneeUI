@@ -1,0 +1,20 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+
+.header-container h1{
+    font-size: 3rem;
+    font-weight:700;
+    color:var(--header-color);
+    margin-left: 1rem;
+}
+
+.fa-github{
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: black;
+}
