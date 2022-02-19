@@ -13,15 +13,15 @@
 }
 
 .online{
-    background-color: lightgreen;
+    background-color: var(--greenish-online);
 }
 
 .idle{
-    background-color: gray;
+    background-color: var(--gray-idle);
 }
 
 .dnd{
-    background-color: red;
+    background-color: var(--red-dnd);
 }
 
 .badge{

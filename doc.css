@@ -10,6 +10,9 @@
     --header-color:#540B0E;
     --hover-bgColor: #FFF3B0;
     --lightish-yellow:#FDEFDC;
+    --greenish-online: lightgreen;
+    --gray-idle:gray;
+    --red-dnd:red;
 }
 
 html{
