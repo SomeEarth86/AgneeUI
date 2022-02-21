@@ -1,0 +1,37 @@
+:root{
+    --error-red: rgb(237, 131, 131);
+}
+
+.primary-inp{
+    display:flex;
+    flex-direction: column;
+}
+
+.primary-inp input, textarea{
+    width: 100%;
+    padding: 0.3rem;
+    margin:0.4rem 0;
+}
+
+.input-box{
+    width: 80%;
+}
+
+.validation{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.validation input,label{
+    margin:0.2rem 0;
+    padding: 0.2rem;
+}
+
+.error-pwd{
+    border:.1rem solid var(--error-red);
+}
+
+.error-style{
+    color:var(--error-red);
+}
