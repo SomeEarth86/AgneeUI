@@ -1,0 +1,145 @@
+.card {
+    width: 21.875rem;
+    height: 25rem;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:1rem;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+.badge-box{
+    width: 100%;
+    position: relative;
+
+}
+
+.card-badge{
+    position:absolute;
+    border-radius: .3rem;
+    padding: 0.3rem;
+    color:white;
+    background-color: purple;
+    top:.1rem;
+    right:.1rem;
+}
+
+.card-textbox{
+    padding: 0 0.5rem;
+}
+
+.title-card{
+    font-size: 1.5rem;
+    margin: 0 0.3rem;
+}
+
+.small-title{
+    margin: 0 0.3rem;
+}
+
+.card-details{
+    margin:1rem 0.3rem;
+}
+
+.card-footer {
+    display: flex;
+    width: 100%;
+    height: 2.9rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-text {
+    width: 50%;
+}
+
+.footer-text button {
+    border: none;
+    font-size: 1.1rem;
+    background-color: white;
+    color: purple;
+
+}
+
+.footer-button {
+    padding: 0.6rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.footer-button ion-icon {
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/* 2. Card with Overlay */
+
+.card-overlay-txt{
+    position: relative;
+}
+
+.overlay-txt{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 75%;
+    
+}
+
+/* 3. Horizontal card */
+
+.horizontal-card {
+    height: fit-content;
+}
+
+.horizontal-card img{
+    width:110px;
+    height:110px;
+}
+
+.horizontal-tab {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txt-card-details{
+    margin-top: 1rem;
+}
+
+.dismiss ion-icon{
+    position: absolute;
+    top:0.3rem;
+    right:0.3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0.1rem solid black;
+    border-radius: 50%;
+}
