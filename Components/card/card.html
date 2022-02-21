@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/doc.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/monokai-sublime.min.css">
+
+    <script src="https://kit.fontawesome.com/30d67fbb5a.js" crossorigin="anonymous"></script>
+
+    <title>Cards</title>
+
+</head>
+
+<body>
+    <header class="header-container">
+        <h1>Agnee UI🔥</h1>
+
+        <a href="https://github.com/SomeEarth86/AgneeUI">
+            <i class="fab fa-github"></i>
+        </a>
+    </header>
+
+    <div class="text-container">
+        <aside class="sidebar">
+            <div class="sidebar_heading">
+                Get started
+            </div>
+
+            <ul>
+                <li class="sidebar_links"><a href="">Introduction</a></li>
+            </ul>
+
+            <hr>
+
+            <div class="sidebar_heading">Components</div>
+            <ul>
+                <li class="sidebar_links"><a href="avatar.html" class="">Avatar</a></li>
+                <li class="sidebar_links"><a href="alert.html">Alert</a></li>
+                <li class="sidebar_links"><a href="badge.html">Badge</a></li>
+                <li class="sidebar_links"><a href="">Button</a></li>
+                <li class="sidebar_links"><a href="" class="highlighted">Card</a></li>
+                <li class="sidebar_links"><a href="">Image</a></li>
+                <li class="sidebar_links"><a href="">Input</a></li>
+                <li class="sidebar_links"><a href="">Toast</a></li>
+                <li class="sidebar_links"><a href="">Navigation</a></li>
+                <li class="sidebar_links"><a href="">List</a></li>
+                <li class="sidebar_links"><a href="">Grid</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <div class="title">Card</div>
+            <div class="text-details">
+                A “card” is a UI design pattern that groups related information in a flexible-size container visually
+                resembling a playing card.
+            </div>
+
+            <hr class="dashed">
+
+            <div class="title">Card with Badge</div>
+            <div class="text-details">
+                This card display information such as exclusive, premium or Out of stock on current item.
+            </div>
+
+            <div class="display-div">
+
+                <!-- 1. Card with Badge -->
+
+                <div class="card">
+                    <div class="badge-box">
+                        <img src="https://thumbs.dreamstime.com/b/autumn-fall-nature-scene-autumnal-park-beautiful-77869343.jpg"
+                            class="card-img" alt="">
+                        <span class="card-badge">Limited</span>
+                    </div>
+
+                    <div class="title-card">Our Changing Planet</div>
+
+                    <div class="small-title">by Kurt Wagner</div>
+
+                    <div class="card-details">Visit ten places on our planet that are undergoing the biggest changes
+                        today.</div>
+
+
+                    <div class="card-footer">
+
+                        <div class="footer-text">
+                            <button class="read">Read</button>
+                            <button class="Bookmark">BookMark</button>
+                        </div>
+
+                        <div class="footer-button">
+
+                            <a href="" class=" love-icon">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a>
+
+                            <a class="share-icon">
+                                <ion-icon class="card-icon" name="share-social-outline"></ion-icon>
+                            </a>
+                            <a class="menu-dot">
+                                <ion-icon class="card-icon" name="ellipsis-vertical-outline"></ion-icon>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="code-snippet-display">
+                <pre>
+                    <code>
+&lt;div class="card"&gt;
+
+&lt;div class="badge-box"&gt;
+
+    &lt;img src="img-url"class="card-img" alt=""&gt;
+    &lt;span class="card-badge"&gt;Limited&lt;/span&gt;
+
+&lt;/div&gt;
+    
+&lt;div class="title-card"&gt;Our Changing Planet&lt;/div&gt;
+
+&lt;div class="small-title"&gt;by Kurt Wagner&lt;/div&gt;
+    
+&lt;div class="card-details"&gt;Visit ten places on our planet that are undergoing the biggest changes
+today.&lt;/div&gt;
+    
+    
+&lt;div class="card-footer"&gt;
+    
+    &lt;div class="footer-text"&gt;
+    
+    &lt;button class="read"&gt;Read&lt;/button&gt;
+    &lt;button class="Bookmark"&gt;BookMark&lt;/button&gt;
+
+    &lt;/div&gt;
+    
+&lt;div class="footer-button"&gt;
+    
+    &lt;a href="" class=" love-icon"&gt;
+    &lt;ion-icon name="heart-outline"&gt;&lt;/ion-icon&gt;&lt;/a&gt;
+    
+    &lt;a class="share-icon"&gt;
+    &lt;ion-icon class="card-icon" name="share-social-outline"&gt;&lt;/ion-icon&gt;
+    &lt;/a&gt;
+
+    &lt;a class="menu-dot"&gt;
+    &lt;ion-icon class="card-icon" name="ellipsis-vertical-outline"&gt;&lt;/ion-icon&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+    
+&lt;/div&gt;
+    
+    
+&lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+
+            <hr class="dashed">
+
+            <!-- 2. Card with Overlay -->
+
+            <div class="title">Card with Overlay</div>
+
+            <div class="display-div">
+
+                <div class="card card-overlay-txt">
+                    <div class="badge-box">
+                        <img src="https://thumbs.dreamstime.com/b/autumn-fall-nature-scene-autumnal-park-beautiful-77869343.jpg"
+                            class="card-img" alt="">
+                        <span class="card-badge">Limited</span>
+                    </div>
+
+                    <div class="title-card">Our Changing Planet</div>
+
+                    <div class="small-title">by Kurt Wagner</div>
+
+                    <div class="card-details">Visit ten places on our planet that are undergoing the biggest changes
+                        today.</div>
+
+
+                    <div class="card-footer">
+
+                        <div class="footer-text">
+                            <button class="read">Read</button>
+                            <button class="Bookmark">BookMark</button>
+                        </div>
+
+                        <div class="footer-button">
+
+                            <a href="" class=" love-icon">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a>
+
+                            <a class="share-icon">
+                                <ion-icon class="card-icon" name="share-social-outline"></ion-icon>
+                            </a>
+                            <a class="menu-dot">
+                                <ion-icon class="card-icon" name="ellipsis-vertical-outline"></ion-icon>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="overlay-txt">Currently Unavailable</div>
+
+                </div>
+
+            </div>
+
+            <div class="code-snippet-display">
+                <pre>
+                    <code>
+&lt;div class="card card-overlay-txt"&gt;
+
+&lt;div class="badge-box"&gt;
+
+    &lt;img src="img-url"class="card-img" alt=""&gt;
+    &lt;span class="card-badge"&gt;Limited&lt;/span&gt;
+
+&lt;/div&gt;
+    
+&lt;div class="title-card"&gt;Our Changing Planet&lt;/div&gt;
+
+&lt;div class="small-title"&gt;by Kurt Wagner&lt;/div&gt;
+    
+&lt;div class="card-details"&gt;Visit ten places on our planet that are undergoing the biggest changes
+today.&lt;/div&gt;
+    
+    
+&lt;div class="card-footer"&gt;
+    
+    &lt;div class="footer-text"&gt;
+    
+    &lt;button class="read"&gt;Read&lt;/button&gt;
+    &lt;button class="Bookmark"&gt;BookMark&lt;/button&gt;
+
+    &lt;/div&gt;
+    
+&lt;div class="footer-button"&gt;
+    
+    &lt;a href="" class=" love-icon"&gt;
+    &lt;ion-icon name="heart-outline"&gt;&lt;/ion-icon&gt;&lt;/a&gt;
+    
+    &lt;a class="share-icon"&gt;
+    &lt;ion-icon class="card-icon" name="share-social-outline"&gt;&lt;/ion-icon&gt;
+    &lt;/a&gt;
+
+    &lt;a class="menu-dot"&gt;
+    &lt;ion-icon class="card-icon" name="ellipsis-vertical-outline"&gt;&lt;/ion-icon&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;div class="overlay-txt"&gt;Currently Unavailable&lt;/div&gt;
+
+&lt;/div&gt;
+    
+    
+&lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+
+            <hr class="dashed">
+
+            <!-- 3. Horizontal Card -->
+
+            <div class="title">Horizontal Card</div>
+
+            <div class="display-div">
+
+                <div class="card horizontal-card">
+
+                    <div class="horizontal-tab">
+                        <img src="https://thumbs.dreamstime.com/b/autumn-fall-nature-scene-autumnal-park-beautiful-77869343.jpg"
+                            class="card-img" alt="">
+
+                        <div class="card-textbox">
+                        <div class="title-card">Our Changing Planet</div>
+
+                        <div class="small-title">by Kurt Wagner</div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+
+                        <div class="footer-text">
+                            <button class="read">Read</button>
+                            <button class="Bookmark">BookMark</button>
+                        </div>
+
+                        <div class="footer-button">
+
+                            <a href="" class=" love-icon">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a>
+
+                            <a class="share-icon">
+                                <ion-icon class="card-icon" name="share-social-outline"></ion-icon>
+                            </a>
+                            <a class="menu-dot">
+                                <ion-icon class="card-icon" name="ellipsis-vertical-outline"></ion-icon>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="code-snippet-display">
+                <pre>
+                    <code>
+&lt;div class="card horizontal-card"&gt;
+
+&lt;div class="horizontal-tab"&gt;
+&lt;img src="url-image"
+class="card-img" alt=""&gt;
+
+&lt;div class="card-textbox"&gt;
+&lt;div class="title-card"&gt;Our Changing Planet&lt;/div&gt;
+
+ &lt;div class="small-title"&gt;by Kurt Wagner&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-footer"&gt;
+
+&lt;div class="footer-text"&gt;
+&lt;button class="read"&gt;Read&lt;/button&gt;
+&lt;button class="Bookmark"&gt;BookMark&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;div class="footer-button"&gt;
+
+&lt;a href="" class=" love-icon"&gt;
+&lt;ion-icon name="heart-outline"&gt;&lt;/ion-icon&gt;
+&lt;/a&gt;
+
+&lt;a class="share-icon"&gt;
+&lt;ion-icon class="card-icon" name="share-social-outline"&gt;&lt;/ion-icon&gt;
+&lt;/a&gt;
+&lt;a class="menu-dot"&gt;
+gt;&lt;/ion-icon&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+
+            <hr class="dashed">
+
+            <!-- 4. Text only card -->
+
+            <div class="title">Text Only Card</div>
+
+            <div class="display-div">
+                <div class="card horizontal-card">
+
+                    <div class="horizontal-tab">
+                        
+
+                        <div class="card-textbox">
+                        <div class="title-card">Our Changing Planet</div>
+
+                        <div class="small-title">by Kurt Wagner</div>
+
+                        <div class="txt-card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi et quisquam quo vero quasi soluta alias, doloremque ducimus </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        
+            <div class="code-snippet-display">
+                <pre>
+                    <code>
+&lt;div class="card horizontal-card"&gt;
+
+&lt;div class="horizontal-tab"&gt;
+
+
+&lt;div class="card-textbox"&gt;
+&lt;div class="title-card"&gt;Our Changing Planet&lt;/div&gt;
+
+ &lt;div class="small-title"&gt;by Kurt Wagner&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+        
+            <hr class="dashed">
+
+            <!-- 5. Card with Dismiss -->
+
+            <div class="title">Card with Dismiss</div>
+
+            <div class="display-div">
+                <div class="card horizontal-card">
+                    <div class="badge-box">
+                    <div class="horizontal-tab">
+                        
+
+                        <div class="card-textbox">
+                        <div class="title-card">Our Changing Planet</div>
+                        <span class="dismiss">
+                            <ion-icon name="close-outline"></ion-icon>
+                        </span>
+                        <div class="small-title">by Kurt Wagner</div>
+
+                        <div class="txt-card-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi et quisquam quo vero quasi soluta alias, doloremque ducimus </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-snippet-display">
+                <pre>
+                    <code>
+&lt;div class="card horizontal-card"&gt;
+    &lt;div class="badge-box"&gt;
+        &lt;div class="horizontal-tab"&gt;
+
+        &lt;div class="card-textbox"&gt;
+        &lt;div class="title-card"&gt;Our Changing Planet&lt;/div&gt;
+        &lt;span class="dismiss"&gt;
+        lt;/ion-icon&gt;
+        &lt;/span&gt;
+        &lt;div class="small-title"&gt;by Kurt Wagner&lt;/div&gt;
+
+        &lt;div class="txt-card-details"&gt;
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi  
+        &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+            
+
+        </main>
+
+    </div>
+
+
+
+    <footer class="footer-container">
+        <div class="links-section">
+            <a href="index.html">
+                <i class="fas fa-fire"></i>
+            </a>
+
+            <a href="https://twitter.com/SomeEarthSays">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="#">
+                <i class="fas fa-book"></i>
+            </a>
+        </div>
+
+
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
