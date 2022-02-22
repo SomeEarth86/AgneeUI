@@ -1,0 +1,38 @@
+:root{
+    --border-color: rgb(50, 50, 50);
+    --background-color: rgb(244, 241, 241);
+}
+
+.modal{
+    width: 20rem;
+    height: fit-content;
+    border: 2px solid var(--border-color);
+    background-color: var(--background-color);
+}
+
+.modal-header{
+    position: relative;
+
+}
+
+.modal-btn{
+    position: absolute;
+    top:-1rem;
+    right: 0.3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-modal{
+    height: 2rem;
+    width: 2rem;
+}
+
+.modal-footer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.modal-footer button{
+    margin: 0.5rem;
+}

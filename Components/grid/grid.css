@@ -1,0 +1,22 @@
+:root{
+    --yellow-grid:rgb(242, 242, 150);
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-brick{
+    border:1px solid black;
+    padding: 1rem 3rem;
+}
+
+.grid-two{
+    grid-template-columns: repeat(2,1fr);
+    background-color: var(--yellow-grid);
+}
+
+.grid-three{
+    grid-template-columns: repeat(3,1fr);
+    background-color: var(--yellow-grid);
+}
