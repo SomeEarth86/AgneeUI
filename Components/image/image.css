@@ -1,0 +1,13 @@
+.res-img{
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+}
+
+.round-img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 12rem;
+    width: 12rem;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/doc.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/monokai-sublime.min.css">
+
+    <script src="https://kit.fontawesome.com/30d67fbb5a.js" crossorigin="anonymous"></script>
+
+    <title>Input</title>
+
+</head>
+
+<body>
+    <header class="header-container">
+        <h1>Agnee UI🔥</h1>
+
+        <a href="https://github.com/SomeEarth86/AgneeUI">
+            <i class="fab fa-github"></i>
+        </a>
+    </header>
+
+    <div class="text-container">
+        <aside class="sidebar">
+            <div class="sidebar_heading">
+                Get started
+            </div>
+
+            <ul>
+                <li class="sidebar_links"><a href="">Introduction</a></li>
+            </ul>
+
+            <hr>
+
+            <div class="sidebar_heading">Components</div>
+            <ul>
+                <li class="sidebar_links"><a href="avatar.html" class="">Avatar</a></li>
+                <li class="sidebar_links"><a href="alert.html"  >Alert</a></li>
+                <li class="sidebar_links"><a href="badge.html">Badge</a></li>
+                <li class="sidebar_links"><a href="">Button</a></li>
+                <li class="sidebar_links"><a href="">Card</a></li>
+                <li class="sidebar_links"><a href="">Image</a></li>
+                <li class="sidebar_links"><a class="highlighted" href="">Input</a></li>
+                <li class="sidebar_links"><a href="">Toast</a></li>
+                <li class="sidebar_links"><a href="">Navigation</a></li>
+                <li class="sidebar_links"><a href="">List</a></li>
+                <li class="sidebar_links"><a href="">Grid</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <div class="title">Input</div>
+            <div class="text-details">
+                Input is a useful to get information from user. Primarly when we refer input it is text based input done via keyboard, other form of input can be click using Mouse etc. Input are crucial part of any application where user can interact with application.
+            </div>
+
+            <hr class="dashed">
+
+            <div class="title">Primary Input</div>
+
+            <div class="text-details">
+                Primary Inputs include textarea, text, number input and password input.
+            </div>
+
+            <div class="display-div">
+            
+                <div class="input-box">
+
+                    <div class="primary-inp">
+                        <label >Enter Username</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="primary-inp">
+                        <label >Enter Number</label>
+                        <input type="number">
+                    </div>
+
+                    <div class="primary-inp">
+                        <label >Enter password</label>
+                        <input type="password">
+                    </div>
+
+                    <div class="primary-inp">
+                        <label >Enter text</label>
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="code-snippet-display">
+                <pre>
+                    <code>
+&lt;div class="primary-inp"&gt;
+&lt;label &gt;Enter Username&lt;/label&gt;
+&lt;input type="text"&gt;
+&lt;/div&gt;
+
+&lt;div class="primary-inp"&gt;
+&lt;label &gt;Enter Number&lt;/label&gt;
+&lt;input type="number"&gt;
+&lt;/div&gt;
+
+&lt;div class="primary-inp"&gt;
+&lt;label &gt;Enter password&lt;/label&gt;
+&lt;input type="password"&gt;
+&lt;/div&gt;
+
+&lt;div class="primary-inp"&gt;
+&lt;label &gt;Enter text&lt;/label&gt;
+&lt;textarea name="" id="" cols="30" rows="5"&gt;&lt;/textareagt;
+&lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+
+            <hr class="dashed">
+
+            <div class="title">Input Validation</div>
+
+            <div class="text-details">
+                Validation is process of verification, in context of input it confirms whether user entered the correct information or whether any field is empty or not etc.
+            </div>
+
+            <div class="display-div">
+                <form action="" class="validation" >
+                    <label for="username">Username</label>
+                    <input type="text">
+
+                    <label for="password">Password</label>
+                    <input type="password" class="error-pwd">
+                    <div class="error-style">Enter the correct password</div>
+                </form>
+            </div>
+
+            <div class="code-snippet-display">
+                <pre>
+                    <code>
+&lt;form action="" class="validation" &gt;
+&lt;label for="username"&gt;Username&lt;/label&gt;
+&lt;input type="text"&gt;
+
+&lt;label for="password"&gt;Password&lt;/label&gt;
+&lt;input type="password" class="error-pwd"&gt;
+
+&lt;/form&gt;
+                    </code>
+                </pre>
+            </div>
+
+            <hr class="dashed">
+
+
+        </main>
+
+    </div>
+
+
+
+    <footer class="footer-container">
+        <div class="links-section">
+            <a href="index.html">
+                <i class="fas fa-fire"></i>
+            </a>
+
+            <a href="https://twitter.com/SomeEarthSays">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="#">
+                <i class="fas fa-book"></i>
+            </a>
+        </div>
+
+
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+
+</body>
+
+</html>
