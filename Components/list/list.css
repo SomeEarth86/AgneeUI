@@ -1,0 +1,21 @@
+:root{
+    --border-color:rgb(213, 209, 209);
+}
+
+.list-item{
+    border: 2px solid var(--border-color);
+    list-style: none;
+    padding: 1rem 4rem;
+    /* width: 50%;  */
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.list-header{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}

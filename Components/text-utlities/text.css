@@ -1,0 +1,17 @@
+.h-box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
