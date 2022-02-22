@@ -74,6 +74,11 @@ body{
     border-radius: 0.313rem;
 }
 
+.doc-link{
+    color:var(--lightish-yellow);
+    text-decoration: none;
+}
+
 
 .footer-container{
     background-color: var(--primary-color);
