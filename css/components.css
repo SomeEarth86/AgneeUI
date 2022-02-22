@@ -1,4 +1,4 @@
-@import url(/components/avatar/avatar.css);
+@import url(/Components/avatar/avatar.css);
 @import url(/Components/Badge/badge.css);
 @import url(/Components/alert/alert.css);
 @import url(/Components/button/button.css);
@@ -10,3 +10,4 @@
 @import url(/Components/modal/modal.css);
 @import url(/Components/grid/grid.css);
 @import url(/Components/navigation/navigation.css);
+

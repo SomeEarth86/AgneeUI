@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Roboto:wght@300&display=swap');
 
-@import url(../css/components.css);
-@import url(../css/navbar.css);
-@import url(../css/sidebar.css);
+@import url(./css/components.css);
+@import url(./css/navbar.css);
+@import url(./css/sidebar.css);
 
 
 :root{
