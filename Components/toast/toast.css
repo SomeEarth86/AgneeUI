@@ -1,0 +1,38 @@
+:root {
+    --success-color: #bced72;
+    --info-blue: #a5f3fc;
+    --warning-yellow: #fef3c7;
+    --error-red: #f87171;
+}
+
+.toast-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.toast {
+    width: 25rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.toast-success {
+    background-color: var(--success-color);
+}
+
+.toast-info{
+
+    background-color: var(--info-blue);
+}
+
+.toast-warning{
+    background-color: var(--warning-yellow);
+}
+
+.toast-error{
+    background-color: var(--error-red);
+}

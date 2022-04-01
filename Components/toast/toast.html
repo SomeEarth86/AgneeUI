@@ -10,6 +10,7 @@
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/monokai-sublime.min.css">
+    <link rel="stylesheet" href="toast.css">
 
     <script src="https://kit.fontawesome.com/30d67fbb5a.js" crossorigin="anonymous"></script>
 
@@ -40,8 +41,8 @@
 
             <div class="sidebar_heading">Components</div>
             <ul>
-                <li class="sidebar_links"><a href="../avatar/avatar.html" >Avatar</a></li>
-                <li class="sidebar_links"><a href="../alert/alert.html" >Alert</a></li>
+                <li class="sidebar_links"><a href="../avatar/avatar.html">Avatar</a></li>
+                <li class="sidebar_links"><a href="../alert/alert.html">Alert</a></li>
                 <li class="sidebar_links"><a href="../Badge/badge.html">Badge</a></li>
                 <li class="sidebar_links"><a href="../button/button.html">Button</a></li>
                 <li class="sidebar_links"><a href="../card/card.html">Card</a></li>
@@ -51,76 +52,82 @@
                 <li class="sidebar_links"><a href="../navigation/navigation.html">Navigation</a></li>
                 <li class="sidebar_links"><a href="../list/list.html">List</a></li>
                 <li class="sidebar_links"><a href="../grid/grid.html">Grid</a></li>
-                
+                <li class="sidebar_links"><a href="../text-utlities/text.html">Text Utilities</a></li>
+                <li class="sidebar_links"><a href="../modal/modal.html">Modal</a></li>
+                <li class="sidebar_links"><a href="../Ratings/ratings.html">Ratings</a></li>
+
             </ul>
         </aside>
 
         <main>
             <div class="title">Toast</div>
             <div class="text-details">
-                Toast usually displays the information (usually notification). It stays on the screen for 2-3 seconds. The main diffrence between normal msg and toast is that it did not create any change in interaction between user and application.
+                Toast usually displays the information (usually notification). It stays on the screen for 2-3 seconds.
+                The main diffrence between normal msg and toast is that it did not create any change in interaction
+                between user and application.
             </div>
 
             <hr class="dashed">
 
             <div class="title"></div>
             <div class="text-details">
-                Simple alert can be generally be of four types with their respective icon and accent color. 
+                Simple alert can be generally be of four types with their respective icon and accent color.
             </div>
 
             <div class="display-div">
 
-                <div class="alert-box">
+                <div class="toast-box">
 
-                    <div class="alert alert-success">
+                    <div class="toast toast-success">
                         <span><img src="https://img.icons8.com/fluency/48/000000/checked-2.png" /></span>
                         This is sample toast message text.
                     </div>
 
-                    <div class="alert alert-info">
-                        <span><img src="https://img.icons8.com/material-outlined/48/000000/info.png"/></span>
+                    <div class="toast toast-info">
+                        <span><img src="https://img.icons8.com/material-outlined/48/000000/info.png" /></span>
                         This is sample toast message text.
                     </div>
 
-                <div class="alert alert-warning">
-                    <span><img src="https://img.icons8.com/fluency/48/000000/general-warning-sign.png"/></span>
-                    This is sample toast message text.
+                    <div class="toast toast-warning">
+                        <span><img src="https://img.icons8.com/fluency/48/000000/general-warning-sign.png" /></span>
+                        This is sample toast message text.
+                    </div>
+
+                    <div class="toast toast-error">
+                        <span><img
+                                src="https://img.icons8.com/material-rounded/48/000000/box-important--v1.png" /></span>
+                        This is sample toast message text.
+                    </div>
+
                 </div>
 
-                <div class="alert alert-error">
-                    <span><img src="https://img.icons8.com/material-rounded/48/000000/box-important--v1.png"/></span>
-                    This is sample toast message text.
-                </div>
-
-                </div>
-                
             </div>
 
             <div class="code-snippet-display">
                 <pre>
                     <code>
 
-&lt;div class="alert-box"&gt;
+&lt;div class="toast-box"&gt;
 
-&lt;div class="alert alert-success"&gt;
+&lt;div class="toast toast-success"&gt;
     &lt;span&gt;&lt;img src="https://img.icons8.com/fluency/48/000000/checked-2.png" /&gt;&lt;/span&gt;
     This is sample toast message text.
 &lt;/div&gt;
         
         
-&lt;div class="alert alert-info"&gt;
+&lt;div class="toast toast-info"&gt;
     &lt;span&gt;&lt;img src="https://img.icons8.com/material-outlined/48/000000/info.png"/&gt;&lt;/span&gt;
     This is sample toast message text.
 &lt;/div&gt;
         
         
-&lt;div class="alert alert-warning"&gt;
+&lt;div class="toast toast-warning"&gt;
     &lt;span&gt;&lt;img src="https://img.icons8.com/fluency/48/000000/general-warning-sign.png"/&gt;&lt;/span&gt;
     This is sample toast message text.
 &lt;/div&gt;
         
 
-&lt;div class="alert alert-error"&gt;
+&lt;div class="toast toast-error"&gt;
     &lt;span&gt;&lt;img src="https://img.icons8.com/material-rounded/48/000000/box-important--v1.png"/&gt;&lt;/span&gt;
     This is sample toast message text.
         
